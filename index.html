@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hockey-Project</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey-Project</title>
 
     <!-- favicon link -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <!-- Tailwind css and daisy UI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- tailwind custom script -->
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
-            }
-          }
-        }
-      }
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
     </script>
     <!-- font-awesome link -->
     <script
-    src="https://kit.fontawesome.com/2232ca91d0.js"
-    crossorigin="anonymous"
+      src="https://kit.fontawesome.com/2232ca91d0.js"
+      crossorigin="anonymous"
     ></script>
     <!-- custom fonts link css -->
     <style>
@@ -37,156 +44,711 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
-
-</head>
-<body class="font-manrope">
-  <!-- header start -->
-  <header class="my-14">
-    <div class="container mx-auto mb-14">
-      <!-- navbar -->
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+  </head>
+  <body class="font-manrope">
+    <!-- header start -->
+    <header class="my-14">
+      <div class="container mx-auto mb-14">
+        <!-- navbar -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a
+                    class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                    >About</a
+                  >
+                  <ul class="p-2">
+                    <li>
+                      <a
+                        class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                        >Premium Player</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                        >Other Player</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base">Home</a></li>
+            <a
+              class="btn btn-ghost text-2xl md:text-3xl lg:text-4xl gap-0 font-extrabold"
+              >Hockey<span class="text-red-500">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
               <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</a>
-                <ul class="p-2">
-                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Premium Player</a></li>
-                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Other Player</a></li>
-                </ul>
+                <a
+                  class="text-red-500 hover:text-red-500 cursor-pointer font-bold text-base"
+                  >Home</a
+                >
               </li>
-              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a></li>
-              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
-              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
+              <li>
+                <details>
+                  <summary
+                    class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                  >
+                    About
+                  </summary>
+                  <ul class="p-2">
+                    <li>
+                      <a
+                        class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                        >First</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                        >Second</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                        >Third</a
+                      >
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                  >Pages</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base"
+                  >Contact</a
+                >
+              </li>
             </ul>
+            <div class="bg-transparent hidden md:hidden lg:flex">
+              <input
+                class="outline-none border-none cursor-pointer"
+                type="text"
+              />
+              <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+            </div>
           </div>
-          <a class="btn btn-ghost text-2xl md:text-3xl lg:text-4xl gap-0 font-extrabold">Hockey<span class="text-red-500">’</span>s</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a class="text-red-500 hover:text-red-500 cursor-pointer font-bold text-base">Home</a></li>
-            <li>
-              <details>
-                <summary class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</summary>
-                <ul class="p-2">
-                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">First</a></li>
-                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Second</a></li>
-                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Third</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a></li>
-            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
-            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
-          </ul>
-          <div class="bg-transparent hidden md:hidden lg:flex">
-            <input class="outline-none border-none cursor-pointer" type="text">
-            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
-          </div> 
-        </div>
-        <div class="navbar-end">
-          <div>         
-            <a class="btn btn-error text-white text-xl font-bold">Get Ticket</a>
+          <div class="navbar-end">
+            <div>
+              <a class="btn btn-error text-white text-xl font-bold"
+                >Get Ticket</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- banner section -->
-    <div class="container mx-auto mb-24 required relative">
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item w-full">
-          <img src="./images/1.png" class="w-full"/>
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a> 
-            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
+      <!-- banner section -->
+      <div class="container mx-auto mb-24 required relative">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item w-full">
+            <img src="./images/1.png" class="w-full" />
+            <div class="absolute flex gap-3 bottom-5 left-5">
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-black text-white border-black"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-black"
+                >❯</a
+              >
+            </div>
           </div>
-        </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="./images/2.png" class="w-full"/>
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❮</a> 
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./images/2.png" class="w-full" />
+            <div class="absolute flex gap-3 bottom-5 left-5">
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-black"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-black text-white border-black"
+                >❯</a
+              >
+            </div>
           </div>
-        </div> 
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="./images/3.png" class="w-full"/>
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❮</a> 
-            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./images/3.png" class="w-full" />
+            <div class="absolute flex gap-3 bottom-5 left-5">
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-black"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-black text-white border-black"
+                >❯</a
+              >
+            </div>
           </div>
-        </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="./images/4.png" class="w-full" />
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❮</a> 
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="./images/4.png" class="w-full" />
+            <div class="absolute flex gap-3 bottom-5 left-5">
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-black text-white border-black"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-black"
+                >❯</a
+              >
+            </div>
           </div>
+        </div>
+        <!-- carousel info section -->
+        <div
+          class="w-full lg:max-w-[500px] bg-[#131318] p-2 lg:p-8 rounded-xl absolute lg:-translate-y-56 lg:right-8"
+        >
+          <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4">
+            Meet all the heroes from the field
+          </h1>
+          <p class="text-sm md:text-lg leading-6 text-gray-400 text-justify">
+            Bangladesh Army Team Champions Hockey Thursday Bangladesh Air Force.
+            Bangladesh Navy team became runner-up.
+          </p>
         </div>
       </div>
-      <!-- carousel info section -->
-      <div class="w-full lg:max-w-[500px] bg-[#131318] p-2 lg:p-8 rounded-xl absolute lg:-translate-y-56 lg:right-8">
-        <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4" >Meet all the heroes from the field</h1>
-        <p class="text-sm md:text-lg leading-6 text-gray-400 text-justify">Bangladesh Army Team Champions Hockey Thursday Bangladesh Air Force. Bangladesh Navy team became runner-up.</p>
-      </div>
-    </div>
-  </header>
-  <!-- header end -->
+    </header>
+    <!-- header end -->
 
-  <!-- main start -->
-  <main>
-    <!-- Professional section  -->
-    <section class="container mx-auto mt-40 md:mt-40 lg:mt-0 border-b-2 border-dashed border-[#13131833]">
-
-      <div class="border-t-2 border-b-2 border-dashed border-[#13131833] py-8">
-        <h2 class="text-center text-4xl font-bold mb-6">Professional Hockeys Club</h2>
-        <p class="text-center text-base font-medium max-w-[600px] mx-auto">Hockey Direct is your go-to online hockey shop for an unrivalled choice of quality, shoes and hockey equipment.</p>
-      </div>
-
-      <!-- Radial progress area -->
-      <div class="grid gap-7 md:gap-5 lg:gap-3  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center my-12">
-        <div class="flex flex-col items-center justify-center">
-          <div class="radial-progress font-extrabold text-[#FF4240]" style="--value:87;" role="progressbar"> <span class="text-black">87%</span></div>
-          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Prayer Facility</h1>
-          <p class="text-center max-w-[250px]">The Edmonton Oilers set a record for the longest Canadian</p>
+    <!-- main start -->
+    <main>
+      <!-- Professional section  -->
+      <section class="container mx-auto mt-40 md:mt-40 lg:mt-0">
+        <div
+          class="border-t-2 border-b-2 border-dashed border-[#13131833] py-20"
+        >
+          <h2 class="text-center text-4xl font-bold mb-6">
+            Professional Hockeys Club
+          </h2>
+          <p class="text-center text-base font-medium max-w-[600px] mx-auto">
+            Hockey Direct is your go-to online hockey shop for an unrivalled
+            choice of quality, shoes and hockey equipment.
+          </p>
         </div>
 
-        <div class="flex flex-col items-center justify-center">
-          <div class="radial-progress font-extrabold text-[#49D293]" style="--value:95;" role="progressbar"> <span class="text-black">95%</span></div>
-          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Experienced Coach</h1>
-          <p class="text-center max-w-[250px]">Midway through the period with BU set up in the offensive zone</p>
+        <!-- Radial progress area -->
+        <div
+          class="grid gap-7 md:gap-5 lg:gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center my-10 md:my-12 lg:my-20"
+        >
+          <!-- Progress item-1 -->
+          <div class="flex flex-col items-center justify-center">
+            <div
+              class="radial-progress font-extrabold text-[#FF4240]"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="text-black">87%</span>
+            </div>
+            <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">
+              Prayer Facility
+            </h1>
+            <p class="text-center max-w-[250px]">
+              The Edmonton Oilers set a record for the longest Canadian
+            </p>
+          </div>
+          <!-- Progress item-2 -->
+          <div class="flex flex-col items-center justify-center">
+            <div
+              class="radial-progress font-extrabold text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="text-black">95%</span>
+            </div>
+            <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">
+              Experienced Coach
+            </h1>
+            <p class="text-center max-w-[250px]">
+              Midway through the period with BU set up in the offensive zone
+            </p>
+          </div>
+          <!-- Progress item-3 -->
+          <div class="flex flex-col items-center justify-center">
+            <div
+              class="radial-progress font-extrabold text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="text-black">90%</span>
+            </div>
+            <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">
+              Senior Player
+            </h1>
+            <p class="text-center max-w-[250px]">
+              The two-game sweep is the fourth out of five conference series
+            </p>
+          </div>
+          <!-- Progress item-4 -->
+          <div class="flex flex-col items-center justify-center">
+            <div
+              class="radial-progress font-extrabold text-[#4C8DF1]"
+              style="--value: 85"
+              role="progressbar"
+            >
+              <span class="text-black">85%</span>
+            </div>
+            <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">
+              Training Ground
+            </h1>
+            <p class="text-center max-w-[250px]">
+              Vermont with a 5-2 victory in front of another sellout crowd
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Program Sections -->
+      <section
+        class="container my-24 mx-auto border-t-2 border-dashed border-[#13131833]"
+      >
+        <div class="border-b-2 border-dashed border-[#13131833] py-20">
+          <h2 class="text-center text-4xl font-bold mb-6">Program Sections</h2>
+          <p class="text-center text-base font-medium max-w-[600px] mx-auto">
+            Friends, we’ve almost made it back to the start of college hockey
+            season. The offseason has come and gone, featuring both former
+            Northeastern players making…
+          </p>
         </div>
 
-        <div class="flex flex-col items-center justify-center">
-          <div class="radial-progress font-extrabold text-[#FFB546]" style="--value:90;" role="progressbar"> <span class="text-black">90%</span></div>
-          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Senior Player</h1>
-          <p class="text-center max-w-[250px]">The two-game sweep is the fourth out of five conference series </p>
+        <div
+          class="pt-12 grid gap-5 grid-row-1 md:grid-row-2 lg:grid-row-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
+        >
+          <div
+            class="p-10 pt-20 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/2.png)] bg-center bg-cover"
+          >
+            <h1 class="text-xl font-bold my-3">Junior Program</h1>
+            <p>
+              Shortly after Northeastern came off arguably their best
+              goaltending performance of the young season, news broke that the
+              Huskies earned the verbal commitment of Quentin…
+            </p>
+            <button class="btn btn-secondary bg-red-500 my-6">Secondary</button>
+          </div>
+          <div
+            class="p-10 pt-20 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/3.png)] bg-center bg-cover"
+          >
+            <h1 class="text-xl font-bold my-3">Junior Program</h1>
+            <p>
+              Shortly after Northeastern came off arguably their best
+              goaltending performance of the young season, news broke that the
+              Huskies earned the verbal commitment of Quentin…
+            </p>
+            <button class="btn btn-secondary bg-red-500 my-6">Secondary</button>
+          </div>
+          <div
+            class="md:col-span-2 row-span-auto p-10 md:pt-48 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/4.png)] bg-center bg-cover"
+          >
+            <h1 class="text-xl font-bold my-3">Junior Program</h1>
+            <p class="max-w-[520px]">
+              Shortly after Northeastern came off arguably their best
+              goaltending performance of the young season, news broke that the
+              Huskies earned the verbal commitment of Quentin…
+            </p>
+            <button class="btn btn-secondary bg-red-500 my-6">Secondary</button>
+          </div>
+        </div>
+      </section>
+      <!-- Our New Products -->
+      <section
+        class="container my-24 mx-auto border-t-2 border-dashed border-[#13131833]"
+      >
+        <div class="border-b-2 border-dashed border-[#13131833] py-20">
+          <h2 class="text-center text-4xl font-bold mb-6">Our New Products</h2>
+          <p class="text-center text-base font-medium max-w-[600px] mx-auto">
+            The final installment of our annual look at the newcomers to the
+            program, we look at the six forwards that Northeastern brings into
+            the fold…
+          </p>
         </div>
 
-        <div class="flex flex-col items-center justify-center">
-          <div class="radial-progress font-extrabold text-[#4C8DF1]" style="--value:85;" role="progressbar"> <span class="text-black">85%</span></div>
-          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Training Ground</h1>
-          <p class="text-center max-w-[250px]">Vermont with a 5-2 victory in front of another sellout crowd</p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-row-1 md:grid-rows-3 lg:grid-row-3 gap-6 my-20"
+        >
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img class="cursor-pointer" src="./images/5.png" alt="card-image" />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                Friends, we’ve almost made it back to the start hockey season.
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $22.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img class="cursor-pointer" src="./images/6.png" alt="card-image" />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>7.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>40</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>600</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                Northeastern secured the verbal commitment of its second
+                defenseman
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $39.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img class="cursor-pointer" src="./images/7.png" alt="card-image" />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>9.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>45</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>250</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                Northeastern earned their first commitment of the new year.
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $48.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img class="cursor-pointer" src="./images/8.png" alt="card-image" />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>9.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>60</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>600</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                Northeastern got their first verbal commitment from a forward
+                since August.
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $55.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img class="cursor-pointer" src="./images/9.png" alt="card-image" />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>5.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>20</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>200</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                As the Christmas holiday calendar gets set to turn to 2024,.
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $46.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg"
+          >
+            <img
+              class="cursor-pointer"
+              src="./images/10.png"
+              alt="card-image"
+            />
+            <div>
+              <div class="flex gap-3">
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-solid fa-star text-[#F99808]"></i>
+                  <p>8.0</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-eye text-[#13131880]"></i>
+                  <p>65</p>
+                </div>
+                <div class="flex gap-2 justify-center items-center">
+                  <i class="fa-regular fa-heart text-[#13131880]"></i>
+                  <p>650</p>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold my-3">World Cup Flags Football</h3>
+              <p class="text-base text-[#13131880] my-4 max-w-80">
+                After getting the verbal commitment of a future this month, .
+              </p>
+              <div class="flex gap-4 items-center">
+                <p class="text-red-500 text-lg font-extrabold">
+                  Price - $50.00
+                </p>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
+                  <p class="text-[#13131880]">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
+      <!-- Clients Question -->
+      <section
+        class="container my-24 mx-auto border-t-2 border-dashed border-[#1313181a]"
+      >
+        <div class="border-b-2 border-dashed border-[#13131833] py-20">
+          <h2 class="text-center text-4xl font-bold mb-6">Clients Question</h2>
+          <p class="text-center text-base font-medium max-w-[600px] mx-auto">
+            After two spectacular seasons in which Devon Levi re-wrote the Northeastern record book and set an all-time standard for goaltender excellence on Huntington Avenue.
+          </p>
+        </div>
 
+        <!-- FAQ Section -->
+        <div
+          class="flex flex-col lg:flex-row gap-6 justify-evenly mt-24 border-2 border-solid border-[#1313181a] p-8 rounded-xl"
+        >
+          <div class="lg:w-2/4">
+            <img class="w-full" src="./images/11.png" />
+          </div>
+          <div class="lg:w-2/4">
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Why did the invisible man turn down the job offer?
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">He couldn't see himself doing it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet perspiciatis officiis corrupti tenetur. Temporibus ut voluptatibus, perferendis sed unde rerum deserunt eius.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Why can't you hear a pterodactyl go to the bathroom? 
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">Devon Levi finishes the season tied for the second-best save percentage of all time. He did it while playing in more games than Hellebuyck or Howard, and did it facing over 320 more shots than either of them. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify" >Sigurdson to be the replacement for Connor Hopkins when the graduate student finishes up at Northeastern this spring. That will give the program four goalies for next season again, with Cameron Whitehead, Grant Riley, and Harrison Chesney all projected to be back. With his success at the junior level, Sigurdson will compete for the backup role with Riley.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">City Lumberjacks of the NA3HL, with whom he won the league’s Rookie of the Year award, played for Sartell-Stephen High School in Minnesota, and multiple other junior programs in Minnesota as well. He’s had a save percentage well north of .900 each of the last four years as he’s continued to develop.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">Sigurdson is a 2003 birth year and hails from Sartell, Minnesota. He stands 6-foot-2, catches with his left hand (traditional for goalies), and currently has a .939 save percentage in 15 games with Odessa in the NAHL. It’s his second season with the Jackalopes, after saving .909 in 15 games last year. He has a 1.93 goals-against-average this year with one shutout, after a 2.87 GAA last year. He has also played for the Granite </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">Shortly after Northeastern came off arguably their best goaltending performance of the young season, news broke that the Huskies earned the verbal commitment of Quentin…</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">After getting the verbal commitment of a future goaltender earlier this month, the Huskies earned the verbal commitment of a future blue liner in late…</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-transparent">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content">
+                <p class="text-justify">Northeastern secured the verbal commitment of its second defenseman this month. After Jack Henry committed to the Huskies just two weeks ago, the Huskies added…</p>
+              </div>
+            </div>
+          </div>
 
-
-
-
-
-
-    </section>
-  </main>
-  <!-- main end -->
-  <!-- footer start -->
-  <footer>
-
-  </footer>
-  <!-- footer end -->  
-</body>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer></footer>
+    <!-- footer end -->
+  </body>
 </html>
