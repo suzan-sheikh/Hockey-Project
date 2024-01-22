@@ -7,16 +7,13 @@
 
     <!-- favicon link -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon"/>
-
     <!-- Tailwind css and daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
     <!-- tailwind custom script -->
     <script>
       tailwind.config = {
@@ -29,13 +26,11 @@
         }
       }
     </script>
-
     <!-- font-awesome link -->
     <script
     src="https://kit.fontawesome.com/2232ca91d0.js"
     crossorigin="anonymous"
     ></script>
-
     <!-- custom fonts link css -->
     <style>
       .font-manrope {
@@ -45,7 +40,153 @@
 
 </head>
 <body class="font-manrope">
-  
-  
+  <!-- header start -->
+  <header class="my-14">
+    <div class="container mx-auto mb-14">
+      <!-- navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base">Home</a></li>
+              <li>
+                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</a>
+                <ul class="p-2">
+                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Premium Player</a></li>
+                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Other Player</a></li>
+                </ul>
+              </li>
+              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a></li>
+              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
+              <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl md:text-3xl lg:text-4xl gap-0 font-extrabold">Hockey<span class="text-red-500">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-red-500 hover:text-red-500 cursor-pointer font-bold text-base">Home</a></li>
+            <li>
+              <details>
+                <summary class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</summary>
+                <ul class="p-2">
+                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">First</a></li>
+                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Second</a></li>
+                  <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Third</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a></li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
+          </ul>
+          <div class="bg-transparent hidden md:hidden lg:flex">
+            <input class="outline-none border-none cursor-pointer" type="text">
+            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+          </div> 
+        </div>
+        <div class="navbar-end">
+          <div>         
+            <a class="btn btn-error text-white text-xl font-bold">Get Ticket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner section -->
+    <div class="container mx-auto mb-24 required relative">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item w-full">
+          <img src="./images/1.png" class="w-full"/>
+          <div class="absolute flex gap-3 bottom-5 left-5">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./images/2.png" class="w-full"/>
+          <div class="absolute flex gap-3 bottom-5 left-5">
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./images/3.png" class="w-full"/>
+          <div class="absolute flex gap-3 bottom-5 left-5">
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❮</a> 
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./images/4.png" class="w-full" />
+          <div class="absolute flex gap-3 bottom-5 left-5">
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❮</a> 
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❯</a>
+          </div>
+        </div>
+      </div>
+      <!-- carousel info section -->
+      <div class="w-full lg:max-w-[500px] bg-[#131318] p-2 lg:p-8 rounded-xl absolute lg:-translate-y-56 lg:right-8">
+        <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4" >Meet all the heroes from the field</h1>
+        <p class="text-sm md:text-lg leading-6 text-gray-400 text-justify">Bangladesh Army Team Champions Hockey Thursday Bangladesh Air Force. Bangladesh Navy team became runner-up.</p>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main>
+    <!-- Professional section  -->
+    <section class="container mx-auto mt-40 md:mt-40 lg:mt-0 border-b-2 border-dashed border-[#13131833]">
+
+      <div class="border-t-2 border-b-2 border-dashed border-[#13131833] py-8">
+        <h2 class="text-center text-4xl font-bold mb-6">Professional Hockeys Club</h2>
+        <p class="text-center text-base font-medium max-w-[600px] mx-auto">Hockey Direct is your go-to online hockey shop for an unrivalled choice of quality, shoes and hockey equipment.</p>
+      </div>
+
+      <!-- Radial progress area -->
+      <div class="grid gap-7 md:gap-5 lg:gap-3  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center my-12">
+        <div class="flex flex-col items-center justify-center">
+          <div class="radial-progress font-extrabold text-[#FF4240]" style="--value:87;" role="progressbar"> <span class="text-black">87%</span></div>
+          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Prayer Facility</h1>
+          <p class="text-center max-w-[250px]">The Edmonton Oilers set a record for the longest Canadian</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+          <div class="radial-progress font-extrabold text-[#49D293]" style="--value:95;" role="progressbar"> <span class="text-black">95%</span></div>
+          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Experienced Coach</h1>
+          <p class="text-center max-w-[250px]">Midway through the period with BU set up in the offensive zone</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+          <div class="radial-progress font-extrabold text-[#FFB546]" style="--value:90;" role="progressbar"> <span class="text-black">90%</span></div>
+          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Senior Player</h1>
+          <p class="text-center max-w-[250px]">The two-game sweep is the fourth out of five conference series </p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+          <div class="radial-progress font-extrabold text-[#4C8DF1]" style="--value:85;" role="progressbar"> <span class="text-black">85%</span></div>
+          <h1 class="text-xl font-bold my-2 md:my-3 lg:my-6">Training Ground</h1>
+          <p class="text-center max-w-[250px]">Vermont with a 5-2 victory in front of another sellout crowd</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </section>
+  </main>
+  <!-- main end -->
+  <!-- footer start -->
+  <footer>
+
+  </footer>
+  <!-- footer end -->  
 </body>
 </html>
