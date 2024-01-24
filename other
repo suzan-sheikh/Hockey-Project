@@ -1,199 +1,167 @@
-<!-- card-1 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
-            <img class="cursor-pointer" src="./images/5.png" alt="card-image" /> 
-            <div class="flex md:items-center lg:items-start flex-col">
-              <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
-                <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p class="">5.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
-                  <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
-                  <p>20</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
-                  <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
-                  <p>200</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">Now Explore Your Choice</h3>
-                <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">Friends, we’ve almost made it back to the start hockey season.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
-                <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
-                  Price-$22
-                </p>
-                <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
-                  <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
-                  <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card-2 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">  
-            <img class="cursor-pointer" src="./images/6.png" alt="card-image" /> 
-            <div class="">
-              <div class="flex gap-3">
-                <div class="flex gap-2 justify-center">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p>7.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-eye text-[#13131880]"></i>
-                  <p>40</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-heart text-[#13131880]"></i>
-                  <p>600</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3">Play Games in Change Now</h3>
-                <p class="text-base text-[#13131880] my-4 max-w-80">Northeastern secured the verbal commitment of its second
-                  defenseman.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row">
-                <p class="text-red-500 text-lg font-extrabold">
-                  Price-$35
-                </p>
-                <div class="flex gap-2 items-start"> 
-                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
-                  <p class="text-[#13131880]">Delivery Fee : Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card-3 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">  
-            <img class="cursor-pointer" src="./images/7.png" alt="card-image" /> 
-            <div class="">
-              <div class="flex gap-3">
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p>9.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-eye text-[#13131880]"></i>
-                  <p>45</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-heart text-[#13131880]"></i>
-                  <p>250</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3">Certain sports which share general"</h3>
-                <p class="text-base text-[#13131880] my-4 max-w-80">Northeastern earned their first commitment of the new year.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row">
-                <p class="text-red-500 text-lg font-extrabold">
-                  Price-$48
-                </p>
-                <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
-                  <p class="text-[#13131880]">Delivery Fee:Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card-4 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">  
-            <img class="cursor-pointer" src="./images/8.png" alt="card-image" /> 
-            <div class="">
-              <div class="flex gap-3">
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p>9.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-eye text-[#13131880]"></i>
-                  <p>55</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-heart text-[#13131880]"></i>
-                  <p>620</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3">World Cup Flags Football"</h3>
-                <p class="text-base text-[#13131880] my-4 max-w-80">First verbal commitment northeastern got their.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row">
-                <p class="text-red-500 text-lg font-extrabold">
-                  Price-$43
-                </p>
-                <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
-                  <p class="text-[#13131880]">Delivery Fee : Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card-5 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">  
-            <img class="cursor-pointer" src="./images/9.png" alt="card-image" /> 
-            <div class="">
-              <div class="flex gap-3">
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p>5.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-eye text-[#13131880]"></i>
-                  <p>20</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-heart text-[#13131880]"></i>
-                  <p>200</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3">Special Olympics. The floor game"</h3>
-                <p class="text-base text-[#13131880] my-4 max-w-80">As the Christmas holiday calendar gets set to turn to 2024.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row">
-                <p class="text-red-500 text-lg font-extrabold">
-                  Price-$54
-                </p>
-                <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
-                  <p class="text-[#13131880]">Delivery Fee:Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card-6 -->
-          <div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">  
-            <img class="cursor-pointer" src="./images/10.png" alt="card-image" /> 
-            <div class="">
-              <div class="flex gap-3">
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-solid fa-star text-[#F99808]"></i>
-                  <p>8.0</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-eye text-[#13131880]"></i>
-                  <p>65</p>
-                </div>
-                <div class="flex gap-2 justify-center items-center">
-                  <i class="fa-regular fa-heart text-[#13131880]"></i>
-                  <p>611</p>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold my-3">n more recent history, the word "hockey".</h3>
-                <p class="text-base text-[#13131880] my-4 max-w-80">After getting the verbal commitment of a future this month.</p>
-              </div>
-              <div class="flex gap-2 flex-col md:flex-row"> 
-                <p class="text-red-500 text-lg font-extrabold">
-                  Price-$50
-                </p>
-                <div class="flex items-center gap-3">
-                  <i class="fa-solid fa-cart-plus text-[#13131880]"></i>
-                  <p class="text-[#13131880]">Delivery Fee:Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- card-2 -->
+<div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
+  <img class="cursor-pointer" src="./images/6.png" alt="card-image" /> 
+  <div class="flex md:items-center lg:items-start flex-col">
+    <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-solid fa-star text-[#F99808]"></i>
+        <p class="">7.0</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
+        <p>40</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
+        <p>600</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">Play Games in Change Now</h3>
+      <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">Northeastern secured the verbal commitment of its second
+        defenseman.</p>
+    </div>
+    <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
+      <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
+        Price-$35
+      </p>
+      <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
+        <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
+        <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card-3 -->
+<div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
+  <img class="cursor-pointer" src="./images/7.png" alt="card-image" /> 
+  <div class="flex md:items-center lg:items-start flex-col">
+    <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-solid fa-star text-[#F99808]"></i>
+        <p class="">9.0</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
+        <p>45</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
+        <p>250</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">Certain sports which share general</h3>
+      <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">Northeastern earned their first commitment of the new year.</p>
+    </div>
+    <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
+      <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
+        Price-$48
+      </p>
+      <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
+        <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
+        <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card-4 -->
+<div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
+  <img class="cursor-pointer" src="./images/8.png" alt="card-image" /> 
+  <div class="flex md:items-center lg:items-start flex-col">
+    <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-solid fa-star text-[#F99808]"></i>
+        <p class="">9.0</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
+        <p>55</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
+        <p>620</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">World Cup Flags Football</h3>
+      <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">First verbal commitment northeastern got their.</p>
+    </div>
+    <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
+      <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
+        Price-$43
+      </p>
+      <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
+        <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
+        <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card-5 -->
+<div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
+  <img class="cursor-pointer" src="./images/9.png" alt="card-image" /> 
+  <div class="flex md:items-center lg:items-start flex-col">
+    <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-solid fa-star text-[#F99808]"></i>
+        <p class="">8.0</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
+        <p>21</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
+        <p>230</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">Special Olympics. The floor game</h3>
+      <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">As the Christmas holiday calendar gets set to turn to 2024.</p>
+    </div>
+    <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
+      <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
+        Price-$45
+      </p>
+      <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
+        <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
+        <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card-6 -->
+<div class="flex gap-4 p-6 border-2 border-inherit border-solid rounded-lg flex-col lg:flex-row">           
+  <img class="cursor-pointer" src="./images/10.png" alt="card-image" /> 
+  <div class="flex md:items-center lg:items-start flex-col">
+    <div class="flex gap-3 md:text-3xl lg:text-base md:mx-auto lg:ml-0">
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-solid fa-star text-[#F99808]"></i>
+        <p class="">8.0</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-eye text-[#13131880] hover:text-[#F99808]"></i>
+        <p>65</p>
+      </div>
+      <div class="flex gap-2 justify-center items-center hover:text-[#F99808] cursor-pointer">
+        <i class="fa-regular fa-heart text-[#13131880] hover:text-[#F99808]"></i>
+        <p>611</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold my-3 md:text-4xl lg:text-xl md:text-center lg:text-left md:my-6 lg:my-3 hover:text-[#F99808]">More recent history, the word hockey</h3>
+      <p class="text-base text-[#13131880] my-4 md:text-center lg:text-left md:text-3xl lg:text-base hover:text-[#F99808]">After getting the verbal commitment of a future this month.</p>
+    </div>
+    <div class="flex gap-2 flex-col md:flex-row md:text-2xl lg:text-base">
+      <p class="text-red-500 text-lg font-extrabold md:text-2xl lg:text-lg hover:text-[#F99808]">
+        Price-$50
+      </p>
+      <div class="flex items-center gap-3 md:gap-6 lg:gap-3">
+        <i class="fa-solid fa-cart-plus text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]"></i>
+        <p class="text-[#13131880] md:text-red-500 lg:text-[#13131880] hover:text-[#F99808]">Delivery Fee:Free</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
