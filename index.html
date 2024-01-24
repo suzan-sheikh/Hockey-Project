@@ -40,126 +40,83 @@
 
 <body class="font-manrope">
   <!-- header start -->
-  <header class="my-14">
-    <div class="container mx-auto mb-14">
-      <!-- navbar -->
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base">Home</a>
-              </li>
-              <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</a>
-                <ul class="p-2">
-                  <li>
-                    <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Premium Player</a>
-                  </li>
-                  <li>
-                    <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Other Player</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a>
-              </li>
-              <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a>
-              </li>
-              <li>
-                <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a>
-              </li>
-            </ul>
+  <header class="container px-8 lg:px-24 mx-auto my-14">
+
+    <!-- nav section -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
-          <a class="btn hover:bg-red-500 hover:text-white btn-ghost text-2xl md:text-3xl lg:text-4xl gap-0 font-extrabold">Hockey<span
-              class="text-red-500">’</span>s</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li>
-              <a class="text-red-500 hover:text-red-500 cursor-pointer font-bold text-base">Home</a>
-            </li>
-            <li>
-              <details>
-                <summary class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">
-                  About
-                </summary>
-                <ul class="p-2">
-                  <li>
-                    <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">First</a>
-                  </li>
-                  <li>
-                    <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Second</a>
-                  </li>
-                  <li>
-                    <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Third</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base">Home</a></li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</a></li>
             <li>
               <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a>
+              <ul class="p-2">
+                <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Player</a></li>
+                <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Member</a></li>
+                <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Other</a></li>
+              </ul>
             </li>
-            <li>
-              <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a>
-            </li>
-            <li>
-              <a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a>
-            </li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
+            <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
           </ul>
-          <div class="bg-transparent hidden md:hidden lg:flex">
-            <input class="outline-none border-none cursor-pointer" type="text" />
-            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
-          </div>
         </div>
-        <div class="navbar-end">
-          <div>
-            <a class="btn btn-error text-white text-xl font-bold">Get Ticket</a>
-          </div>
+        <a class="btn hover:bg-red-500 hover:text-white btn-ghost text-2xl md:text-3xl lg:text-4xl gap-0 font-extrabold">Hockey<span class="text-red-500">’</span>s</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="hover:text-red-500 cursor-pointer font-bold text-red-500 text-base">Home</a></li>
+          <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">About</a></li>
+          <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Pages</a></li>
+          <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Blog</a></li>
+          <li><a class="hover:text-red-500 cursor-pointer font-bold text-[#717178] text-base">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="bg-transparent hidden md:hidden lg:flex border-b border-red-500 mr-3">
+          <input class="outline-none border-none cursor-pointer max-w-20" type="text" id="cle"/>
+          <label for="cle"><i class="fa-solid fa-magnifying-glass cursor-pointer"></i></label>
         </div>
+        <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
       </div>
     </div>
     <!-- banner section -->
-    <div class="container mx-auto mb-24 required relative">
+    <div class="mb-24 required relative box-border mt-12">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item w-full">
           <img src="./images/1.png" class="w-full" />
-          <div class="absolute flex gap-3 bottom-5 left-5">
+          <div class="absolute flex gap-3 left-[40%] lg:left-5 bottom-4">
             <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a>
             <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
           <img src="./images/2.png" class="w-full" />
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❮</a>
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div class="absolute flex gap-3 left-[40%] lg:left-5 bottom-4">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
           <img src="./images/3.png" class="w-full" />
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❮</a>
-            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div class="absolute flex gap-3 left-[40%] lg:left-5 bottom-4">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
           <img src="./images/4.png" class="w-full" />
-          <div class="absolute flex gap-3 bottom-5 left-5">
-            <a href="#slide3" class="btn btn-circle bg-black text-white border-black">❮</a>
-            <a href="#slide1" class="btn btn-circle bg-black text-white border-black">❯</a>
+          <div class="absolute flex gap-3 left-[40%] lg:left-5 bottom-4">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-black">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-black">❯</a>
           </div>
         </div>
       </div>
       <!-- carousel info section -->
-      <div class="w-full lg:max-w-[500px] bg-[#131318] p-2 lg:p-8 rounded-xl absolute lg:-translate-y-56 lg:right-8">
+      <div class="w-[100%] mx-auto lg:max-w-[500px] bg-[#131318] p-2 lg:p-8 rounded-xl absolute lg:-translate-y-64 lg:right-9 mt-4">
         <h1 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-4">
           Meet all the heroes from the field
         </h1>
@@ -175,9 +132,9 @@
   <!-- main start -->
   <main>
     <!-- Professional section  -->
-    <section class="container mx-auto mt-40 md:mt-40 lg:mt-0">
-      <div class="border-t-2 border-b-2 border-dashed border-[#13131833] py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover cursor-pointer">
-        <h2 class="text-center text-4xl font-bold mb-6">
+    <section class="container px-8 lg:px-24 mx-auto mt-40 lg:mt-0">
+      <div class="border-t-2 border-b-2 border-dashed border-[#13131833] py-6 md:py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover cursor-pointer">
+        <h2 class="text-center text-2xl md:text-4xl font-bold mb-6">
           Professional Hockeys Club
         </h2>
         <p class="text-center text-base font-medium max-w-[600px] mx-auto">
@@ -242,9 +199,9 @@
     </section>
 
     <!-- Program Sections -->
-    <section class="container my-24 mx-auto border-t-2 border-dashed border-[#13131833]">
-      <div class="border-b-2 border-dashed border-[#13131833] py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover  cursor-pointer">
-        <h2 class="text-center text-4xl font-bold mb-6">Program Sections</h2>
+    <section class="container px-8 lg:px-24 mx-auto">
+      <div class="border-b-2 border-t-2 border-dashed border-[#13131833] py-6 md:py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover  cursor-pointer">
+        <h2 class="text-center text-2xl md:text-4xl font-bold mb-6">Program Sections</h2>
         <p class="text-center text-base font-medium max-w-[600px] mx-auto">
           Friends, we’ve almost made it back to the start of college hockey
           season. The offseason has come and gone, featuring both former
@@ -257,38 +214,33 @@
           class="p-10 pt-20 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/2.png)] bg-center bg-cover">
           <h1 class="text-xl font-bold my-3">Junior Program</h1>
           <p>
-            Shortly after Northeastern came off arguably their best
-            goaltending performance of the young season, news broke that the
-            Huskies earned the verbal commitment of Quentin…
+            Hockey is a term used to denote a family of various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice.
           </p>
-          <button class="btn border-0 text-white hover:text-black bg-[#FF4240]  my-6">Secondary</button>
+          <button class="btn border-0 text-white hover:text-black bg-[#FF4240]  my-6">Register Now</button>
         </div>
         <div
           class="p-10 pt-20 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/3.png)] bg-center bg-cover">
-          <h1 class="text-xl font-bold my-3">Junior Program</h1>
+          <h1 class="text-xl font-bold my-3">Adult Program</h1>
           <p>
-            Shortly after Northeastern came off arguably their best
-            goaltending performance of the young season, news broke that the
-            Huskies earned the verbal commitment of Quentin…
+            In each of these sports, two teams play against each other by trying to manoeuvre the object of play, either a type of ball or a disk (such as a puck).
           </p>
           <button class="btn border-0 text-white hover:text-black bg-[#FF4240]  my-6">Secondary</button>
         </div>
         <div
           class="md:col-span-2 row-span-auto p-10 md:pt-48 text-white rounded-xl bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/4.png)] bg-center bg-cover">
-          <h1 class="text-xl font-bold my-3">Junior Program</h1>
+          <h1 class="text-xl font-bold my-3">Senior Program</h1>
           <p class="max-w-[520px]">
-            Shortly after Northeastern came off arguably their best
-            goaltending performance of the young season, news broke that the
-            Huskies earned the verbal commitment of Quentin…
+            The first recorded use of the word hockey is in the 1773 book Juvenile Sports and Pastimes, to Which Are Prefixed, Memoirs of the Author…
           </p>
           <button class="btn border-0 text-white hover:text-black bg-[#FF4240]  my-6">Secondary</button>
         </div>
       </div>
     </section>
+   
     <!-- Our New Products -->
-    <section class="container my-24 mx-auto border-t-2 border-dashed border-[#13131833]">
-      <div class="border-b-2 border-dashed border-[#13131833] py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover  cursor-pointer">
-        <h2 class="text-center text-4xl font-bold mb-6">Our New Products</h2>
+    <section class="container px-8 lg:px-24 my-8 lg:my-24 mx-auto">
+      <div class="border-b-2 border-t-2 border-dashed border-[#13131833] py-6 md:py-20 hover:bg-[url(./images/bg.png)] bg-center bg-cover  cursor-pointer">
+        <h2 class="text-center text-2xl md:text-4xl font-bold mb-6">Our New Products</h2>
         <p class="text-center text-base font-medium max-w-[600px] mx-auto">
           The final installment of our annual look at the newcomers to the
           program, we look at the six forwards that Northeastern brings into
@@ -296,8 +248,12 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-row-1 md:grid-rows-3 lg:grid-row-3 gap-6 my-20">
-        <div class="flex gap-4 p-3 border-2 border-inherit border-solid rounded-lg">
+<!-- ################## work complete upper Section #################  -->
+<!-- ################## work complete upper Section #################  -->
+<!-- ################## work complete upper Section #################  -->
+
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 grid-row-1 md:grid-rows-3 lg:grid-row-3 gap-6 my-8 md:my-20">
+        <div class="flex flex-col md:flex-row gap-4 p-3 border-2 border-inherit border-solid rounded-lg">
           <img class="cursor-pointer" src="./images/5.png" alt="card-image" />
           <div>
             <div class="flex gap-3">
